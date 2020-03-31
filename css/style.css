@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #2F3338;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 950px;
+    height: 0 auto;
+    box-shadow: 0 0 3em #000;
+    overflow: hidden;
+}
+
+.caixa-instagram {
+    float: left;   
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 0 0 20px #000;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 10px;
+
+}
+
+.logo {
+    float: left;
+    width: 950px;
+    height: 377px;
+    background: url(img/topo.fw.png) no-repeat;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.publicidade {
+    float: left;
+    width: 728px;
+    height: 90px;
+    background: #000;
+    margin: 17px;
+}
+
+.parceiro {
+    float: left;
+    width: 175px;
+    height: 90px;
+    background: #000;
+    margin-top: 17px;
+    margin-left: -5px;
+}
+
+.sidebar-left {
+    float: left;
+    margin: 20px;
+
+}
+
+.sidebar-title {
+    background: #424242;
+    width: 175px;
+    height: 36px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0.2em 0.2em #000;
+    text-align: center;
+    color: #fff;
+    font: 18px cooper std;
+    padding-top: 5px;
+}
+
+.sidebar-conteudo {
+    margin-bottom: 10px;
+}
+
+.sidebar-conteudo ul {
+    list-style: none;
+}
+
+.sidebar-conteudo li {
+    margin-top: 10px;
+    padding: 2px 0;
+    margin-left: 5px;
+}
+.sidebar-conteudo li a {
+    font: 15px Arial;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-conteudo li a:hover {
+    color: #660000;
+}
+
+.container-post {
+    width: 600px;
+    float: left;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.caixa-post {
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    border: thin solid #000;
+    box-shadow: 0 0.2em 0.2em #000;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.post-title {
+    width: 600px;
+    height: 45px;
+    background: #000;
+}
+
+.post-title a {
+    float: left;
+    text-decoration: none;
+    font: 20px cooper std;
+    background: #000;
+    color: #fff;
+    margin: 10px;
+}
+
+.post-title a:hover {
+    color: #660000;
+}
+
+.post-thumbmail {
+    float: left;
+    width: 125px;
+    height: 140px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0.2em 0.2em #000;
+    margin: 7px;
+}
+
+.post-autor {
+    float: left;
+    font: 13px arial;
+    margin: 7px;
+    color: white;
+
+}
+
+.post-data {
+    float: left;
+    font: 13px arial;
+    margin: 7px;
+    color: white;
+}
+
+.post-preview {
+    margin-left: 10px;
+    width: 440px;
+    height: 100px;
+    font: 17px arial;
+    color: white;
+    overflow: hidden;
+}
+
+.post-ver-mais {
+    width: 115px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #660000;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+}
+
+.post-ver-mais a {
+    background: #660000;
+    color: white;
+    text-decoration: none;
+    font: 15px cooper std;
+}
+
+.footer {
+    float:left;
+    width: 950px;
+    height: 94px;
+    background: url(img/rodape.fw.png) no-repeat;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.footer-text {
+    text-align: center;
+    color: #000;
+    font: 13px "cooper std";
+    position: absolute;
+    margin: 40px 125px;
+    background: #660000;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #000;
+    font: 13px "cooper std";
+    background: #660000;
+}
